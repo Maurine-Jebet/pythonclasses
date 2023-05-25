@@ -20,7 +20,9 @@ class Student:
     def show_fullname(self):
        return(f"{self.first_name} + "" + {self.last_name}")
     def year_of_birth(self):
+
        self.current_year=2023
        return self.current_year-self.age
     def show_initial(self):
        return f"{self.first_name[0]}{self.last_name[0]}"
+ 
